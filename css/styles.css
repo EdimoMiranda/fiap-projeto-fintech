@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --my-gradient: linear-gradient(to right top, #b7efc5, #aaecba, #9de9af, #8fe6a4, #81e399, #76df90, #6bdc86, #60d87d, #55d473, #49cf69, #3ccb5e, #2dc653);
+    --my-primary-color: #ffffff;
+    --my-second-color: #000000
+}
+
+
+body {
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header,
+footer {
+    font-size: 1.125rem;
+    color: var(--my-primary-color);
+    background-image: var(--my-gradient)
+}
+
+.logo {
+    color: var(--my-primary-color);
+    font-size: 2.5rem;
+}
+
+.my-title {
+    font-size: 2rem;
+    color: var(--my-second-color)
+}
+
+.my-subtitle {
+    font-size: 1.25rem;
+    color: var(--my-second-color)
+}
+
+.my-paragraph {
+    font-size: 1.125rem;
+    text-align: justify;
+    color: var(--my-second-color)
+}
+
+img {
+    width: auto;
+    height: 200px;
+    object-fit: fill;
+}
+
+.swal-modal {
+    height: auto;
+    min-width: auto;
+    border: 2px solid white;
+    margin: auto;
+    background-image: var(--my-gradient)
+}
+
+.swal-title {
+    font-size: 2rem;
+    margin: auto;
+    color: var(--my-second-color);
+}
+
+.swal-text {
+    font-size: 1.125rem;
+    color: var(--my-second-color);
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.swal-footer {
+    border-top: 1px solid var(--my-primary-color);
+    overflow: hidden;
+}
+
+.swal-button {
+    font-size: 1rem;
+    border-radius: 1px;
+    background-image: linear-gradient(--my-gradient);
+}
