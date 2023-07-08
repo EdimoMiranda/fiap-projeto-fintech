@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Inserindo imagem antes do título do Browser -->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <title>Savest</title>
+    <!-- Linkando - Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto&display=swap" rel="stylesheet">
+    <!-- Linkando os ícones - Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Linkando o Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Linkando - Styless CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <!-- Header da página -->
+    <header class="shadow-sm">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid m-auto align-content-center">
+                <a class="navbar-brand text-center" href="#">
+                    <h1 class="logo d-block">Savest</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active teste" aria-current="page" href="#"
+                                style="color:rgb(255, 255, 255);">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="abriralerta()" style="color:rgb(255, 255, 255);">Sobre
+                                nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="abriralerta()"
+                                style="color:rgb(255, 255, 255);">Contato</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex gap-2">
+                        <a class="btn btn-outline-light rounded-2" href="#" onclick="abriralerta()">Cadastre-se</a>
+                        <a class="btn btn-outline-light rounded-2" href="#" onclick="abriralerta()">Login</a>
+                        <!-- <button class="btn btn-outline-light rounded-2" type="submit">Cadastre-se</button>
+                        <button class="btn btn-outline-light rounded-2" type="submit">Login</button> -->
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Fim do header da página -->
+    <!-- Ínicio do main -->
+    <main class="container my-3 my-xl-5 align-items-center shadow">
+        <div class="row">
+            <div class="col-12 col-md-6 col-xxl-6 mt-0">
+                <img src="../images/img1_poupe_seu_tempo.jpg" class="img-fluid"
+                    alt="Imagem poupe o seu tempo e dinheiro">
+            </div>
+            <div class="col-12 col-md-6 col-xxl-6 text-center m-auto">
+                <h2 class="my-title fw-bold">Savest</h2>
+                <h3 class="my-subtitle fw-semibold">Poupe o seu tempo e invista no seu futuro</h3>
+                <p class="my-paragraph">
+                    Chegou a <strong>solução</strong> para aqueles que enfrentam dificuldades em lidar com suas
+                    finanças. Oferecemos
+                    recursos de <strong>organização</strong> que possibilitam a administração de suas contas, permitindo
+                    que você
+                    compreenda facilmente como seu dinheiro está sendo utilizado. Nosso objetivo é auxiliar famílias a
+                    alcançarem a <strong>liberdade financeira e uma vida próspera.</strong> Registre-se agora e comece a
+                    utilizar este
+                    <strong>gerenciador financeiro.</strong>
+                </p>
+                <a href="#" class="btn btn-outline-success rounded-2" onclick="abriralerta()">Cadastre-se</a>
+            </div>
+        </div>
+    </main>
+    <!-- Fim do Main -->
+    <!-- Início da 1º Section-->
+    <section class="container row mx-auto shadow">
+        <div class="col-12 text-center">
+            <h2 class="my-title fw-bold">Nossos principais recursos</h2>
+            <h3 class="my-subtitle">Conheça os recursos que pouparão seu tempo, permitindo que você invista no seu
+                futuro</h3>
+        </div>
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+            <div class="card m-auto h-100" style="width: 20rem">
+                <img class="d-block" src="../images/img2_registre_orcamentos.jpg" alt="Imagem orçamentos">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold text-center">Orçamentos</h5>
+                    <p class="card-text text-center">Registre seus orçamentos e compreenda como seu dinheiro está sendo
+                        utilizado.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+            <div class="card m-auto h-100" style="width: 20rem">
+                <img class="d-block" src="../images/img3_metas.jpg" alt="Imagem metas">
+                <div class="card-body">
+                    <h5 class=" card-title fw-bold text-center">Metas</h5>
+                    <p class="card-text text-center">Crie metas personalizadas para alcançar seus objetivos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+            <div class="card m-auto h-100" style="width: 20rem">
+                <img class="d-block" src="../images/img4_graficos.jpg" alt="Imagem gráficos">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold text-center">Gráficos</h5>
+                    <p class="card-text text-center">Acesse gráficos que fornecerão insights para garantir uma vida
+                        próspera.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+            <div class="card m-auto h-100" style="width: 20rem">
+                <img class="d-block" src="../images/img5_integracao_bancaria.jpg" alt="Imagem integração bancária">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold text-center">Integração bancária</h5>
+                    <p class="card-text text-center">Integre suas contas e cartões de maneira simplificada.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+            <div class="card m-auto h-100" style="width: 20rem">
+                <img class="d-block" src="../images/img6_alertas_notificacoes.jpg" alt="Imagem alerta e notificações">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold text-center">Alertas</h5>
+                    <p class="card-text text-center">Crie alertas para assegurar que você não perca o controle
+                        financeiro.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+            <div class="card m-auto h-100" style="width: 20rem">
+                <img class="d-block" src="../images/img7_extrato_bancario.jpg" alt="Imagem extrato bancário">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold text-center">Extratos</h5>
+                    <p class="card-text text-center">Consulte sua vida financeira utilizando uma
+                        variedade de filtros.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fim da 1º Section-->
+    <!-- Inicio da 2 Section -->
+    <section class="container my-3 my-xl-5 align-items-center shadow">
+        <div class="col-12 text-center">
+            <h2 class="my-title fw-bold">Conheça as nossas disponibilidades</h2>
+            <h3 class="my-subtitle">Estamos disponíveis no seu sistema favorito</h3>
+        </div>
+        <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3 px-3">
+            <div class="d-flex align-items-center">
+                <div><i class="bi-globe"></i></div>
+                <div>
+                    <div class="ms-3 mb-1">Web</div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center">
+                <div><i class="bi bi-android"></i></div>
+                <div>
+                    <div class="ms-3 mb-1">Android</div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center">
+                <div><i class="bi bi-apple"></i></div>
+                <div>
+                    <div class="ms-3 mb-1">iOS</div>
+                </div>
+            </div>
+    </section>
+    <!-- Fim da 2 Section -->
+    <!-- Início - Rodapé -->
+    <footer class="text-center shadow">
+        <p class="card-text py-3">2023 <i class="bi bi-c-circle"></i> Todos os direitos reservados | Projeto em
+            desenvolvimento | RM550741</p>
+    </footer>
+    <!-- Fim do Rodapé -->
+    <!-- Link Script - Bootstrap - -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <!-- Link Script - Sweet Alerta -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- Script - Alerta -->
+    <script>
+        function abriralerta() {
+            swal({
+                icon: "info",
+                title: "Olá!",
+                text: "O projeto está em desenvolvimento.",
+            }
+            );
+        }
+    </script>
+</body>
+
+</html>
